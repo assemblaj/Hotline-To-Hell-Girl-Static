@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<head>
+    <meta charset='utf-8' />
+    <title>Hotline to Hell Girl: That Person's Memory</title>
+    <link rel='stylesheet' type='text/css' href='hthg.css'>
+</head>
+<body>
+
+<script type='text/javascript' src='header.js'></script>
+<div id='content_wrapper'>
+    <div class='content'>
+      <p class='content'>
+      <h1 class='content'>Episodes</h1>
+
+      <div id='video_episode'>
+        <embed type='application/x-shockwave-flash'
+         height='350' width='480' src='http://www.hulu.com/embed/rbNf3NSbZVh-trkMz3R5WA' allowFullScreen='true'/>
+      </div>
+
+
+      <div id='data'>
+         <div id='video_head'>That Person's Memory</div>
+            <div id='video_ep_data'>Season 2, Episode 18</div>
+            <div id='video_category'>Category: <a class='category_link' href='family.html'>Family</a></div>
+            <div id='video_box'>
+                                              <div id ='comment_container'>
+                <form>
+                    <label id='username_label'>Username:<input type='text' id='uName' size='25'></label>
+                </form>
+                <textarea id='box' rows='4' cols='46' placeholder='Enter your comment.'></textarea>
+                <button id='submit_button' type='button' onclick='processComment()'>Submit Comment</button>
+                <div>
+                    <select id='comment_sort' onclick='setSort()'>
+                        <option value='Newest first'>Newest first</option>
+                        <option value='Top comments'>Top Comments</option>
+                     </select>
+                </div>
+                <div id='comments'></div></div>
+            </div>
+      </div>
+
+     <script type='text/javascript' src='comments.js'></script>
+   </div>
+</div>
+
+<script type='text/javascript' src='footer.js'></script>
+</body>
+</html>

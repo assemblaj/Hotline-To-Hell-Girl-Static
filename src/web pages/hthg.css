@@ -1,0 +1,440 @@
+body {background-color:black;
+     margin:0;} /*make header extend across the top and the left */
+
+/*contains all elements in header*/
+#main.navigation{
+   height:100px;
+   
+   /*width:780px; just changed */
+   width:1020px;
+   
+   margin:0 auto;} 
+
+/* make the header extend across the screem*/
+#hwrapper {
+   min-width:100%;
+   background-color:#101010;
+   /*
+   position:fixed;
+   top:-5px;
+   right:-2px;*/
+   
+   border-bottom-style:solid; /*red band around bottom of header */
+   border-bottom-color:#D11919;
+   border-bottom-width:3px;
+   
+   margin-bottom:20px; /*adding this so there's space w/0 cat bar*/
+}
+
+/*header logo*/
+#hlogo {float:left;
+        padding-right:40px;} /*just changed */
+
+/*navigation bar */
+#selecton_bar {
+   padding-top:40px;
+   padding-left:750px; /*Just added */
+}
+
+/* elements in navigation bar*/			 
+a:link.navigation, a:visited.navigation {
+   display:block;
+  /* width: 208px;*/
+  /* background-color:#300000;*/
+  text-decoration: none;
+  }
+							 
+a:hover.navigation, a:active.navigation{
+   /*background-color:#B81212;*/
+   color:white;
+   color:#C00000;
+   cursor:pointer;}
+
+a.navigation{
+   /*color:#B81212;*/
+   color:white;
+   font-size:2em;
+   margin-left:6px;
+   margin-right:6px;
+   font-family:'courier new';
+   float:left;}
+/* end navigation bar */	
+
+
+/* category bar */
+#category_wrapper {
+   /*padding-top:7px;*/
+   padding-bottom:20px;
+   width:1020px;
+   margin:0 auto;
+}
+
+nav.category_bar {
+	color:#383838;
+	border-color:#BF0000;
+	border-style:solid;
+	border-width: 1px;
+	font-family:'Arial';
+	text-align:center;
+}
+
+nav.category_bar > a:link, nav.category_bar > a:visited {
+  /* display:block;*/
+   width: 208px;
+   color:/*#C0C0C0*//*#B81212*/#C80000;
+  /* background-color:#300000;*/
+   /*font-weight:bold;*/
+   padding-left:4px;
+   padding-right:4px;
+   text-decoration:none;}
+							 
+nav.category_bar > a:hover, nav.category_bar > a:active{
+   color:#C0C0C0;
+   cursor:pointer;}
+/* end category bar*/
+   
+/* main content box  */
+
+#content_wrapper{
+   width:1020px;
+   min-height:600px;
+   
+   margin:0 auto;
+   background-color:#101010;
+}
+   
+h1.content{
+	color:white;
+	/*float:left;*/
+	font-family:arial;
+	font-weight:normal;
+	border-bottom:1px solid #D11919;/*red line under it*/
+}
+
+div.content{
+   padding-left:20px;
+   padding-right:20px;
+   padding-top:10px;
+}
+/* end content box */
+
+/* index page now */
+#featured_head{
+	font-family:arial;
+	font-weight:normal;
+	color:#D11919;
+	font-size:20pt;
+}
+
+#feaured_ep_data{
+	font-family:arial;
+	font-weight:normal;
+	color:white;
+	font-style:italic;
+}
+
+#featured_category {
+	font-family:arial;
+	font-weight:normal;
+	color:white;
+}
+
+#featured_box{
+	font-family:arial;
+	font-weight:normal;
+	color:white;
+	font-size:12pt;
+	margin-right:10px;
+	padding-top:10px;
+}
+
+#featured_video{
+	margin-left:35px;
+	float:right;
+}
+/* end index page  */
+
+/*  about page now */
+p.about {
+   color:white;
+   font-family:arial;
+   font-size:14pt;
+}
+
+img.about {
+	float:right;
+	padding:3px;
+	border: 1px solid #D11919;
+	margin:1px;
+}
+
+/*end about page */
+
+/*now working on footer */ 
+#fwrapper {
+   min-width:100%;
+   background-color:#101010;
+   
+   border-top-style:solid; /*red band around bottom of header */
+   border-top-color:#D11919;
+   border-top-width:3px;
+   margin-top:30px;
+}
+
+div.footer{
+   width: 445px;
+   min-height:60px;
+   padding:0px 6px;
+   margin: 0 auto;
+   text-align:center;
+   color:white;
+   font-family:'courier new';}
+
+/*end footer*/
+
+/* now working on FAQ page */ 
+ul.faq {  
+   list-style-type:none;
+   font-family:arial;
+   font-size:14pt;
+}
+
+a.faq:link, a.faq:visited {
+	color:#C80000;
+}
+
+a.faq:hover, a.faq:active {
+	color:#C0C0C0;
+}
+
+.faq_answer {
+   color:white;
+   list-style-type:none;
+   padding-left:20px;
+   margin-bottom:20px;
+   font-weight:normal;
+}
+
+.faq_question {
+   color:#D11919;
+   font-weight:bold;
+}
+/* end FAQ page */
+
+/* Now working on the search page */
+
+/*search filter bar wrapper */
+#filter_wrapper {
+   width:700px;
+   margin:0 auto;
+}
+
+/* search filter bar */
+ul.filter_bar {
+   list-style-type:none;
+   margin:0;
+   padding:0;}
+
+ul.filter_bar > li {
+   display:inline; 
+   float:left;
+   padding-right:20px;}
+
+ul.filter_bar  span {
+   color:white;
+   font-family:arial;
+   font-size:14pt;
+   float:left;
+   padding-right:5px;
+}
+#filters_label {
+  padding-right:50px;
+  color:#D11919;
+}
+/* dropdown menus for search parameters */
+form.search_drop {
+	padding-right:10px;
+}
+/* end of search stuff (which I'll never use */
+
+/*begin category box stuff */
+#c_table_wrapper {
+  width: 755px;
+  margin:0 auto;
+}
+
+.category_header {
+   color:#D11919;
+}  
+
+.category_table  img {
+  height: 90px;
+  width: 142px;
+  /* it's 220, 124, but it must be smaller */
+  border: 1px solid #D11919;
+}
+.category_table  td {
+  padding-right:20px;
+  padding-left:20px;
+  vertical-align:top; /*make sure tds stay at top 
+                       when there's a word wrap */
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+.category_table{
+  /*color:red;*/
+  color:white;
+  font-size:15px;
+  font-family:arial;
+}
+.epTitle {
+   word-wrap:break-word; /*drop text down to next line*/
+   width:150px;}
+ 
+.ep_title_link {
+   color:#D11919;
+}
+
+a.category_link:link {
+  color:#D11919;
+}
+
+a.category_link:visited {
+  color:#C0C0C0;
+}
+
+.cat_link_wrapper{
+	word-wrap:break-word;
+	width:150px;
+}
+/*end category box stuff*/
+
+/* CSS for line that lets you sort through pages */
+#page_line {
+   text-align: center;
+   vertical-align:bottom;
+}
+
+.page_link{
+   color: white;
+   margin-left: 4px;
+   margin-right: 4px;
+   text-decoration:underline;
+   cursor:pointer;
+}
+
+/* end page line stuff*/
+
+/* style for comment container and forms */
+#comments {
+	width:auto;
+	height:350px;
+	overflow-y:auto;
+	overflow-x:hidden;
+	border-style: solid;
+	border-color: #D11919;
+	border-width: 1px;
+	padding:5px;
+}
+
+#username_label{color:white;}
+
+#submit_button {
+	float:right;
+	background-color:#980000;/*#383838;*/
+	color:white;
+	/*border-color:#D11919;*/
+	border:none;
+}
+
+#comment_sort{
+	clear:both;
+	padding-bottom:0px;
+	margin-top:30px;
+	margin-bottom:8px;
+}
+
+#comment_holder {width:200px;}
+#comment_container{margin-top:5px;}
+
+/* style for individual comments comments here */
+#comment{
+   width:378px; /* was 420 */
+   border-bottom-style:solid; /*red band above comment */
+   border-bottom-color:#D11919;
+   border-bottom-width:1px;
+   
+   margin-bottom:10px; /*adding this so there's space w/0 cat bar*/
+}
+
+#avatar_holder{
+	float:left;
+	padding-right:25px;
+}
+
+#comment_content{}
+
+#user_name{
+	color:#D11919;
+	font-weight:bold;
+	float:left;
+	padding-right:10px;
+}
+
+#comment_time{color:white;}
+
+/*comment text */
+#comment_text{
+	color:white;
+	height:40px;
+	word-wrap:break-word;
+	width:310px;
+	font-family: arial;
+}
+
+/*likes*/
+#likes_label{
+	color:#D11919;
+	padding-right:10px;
+}
+
+#comment_likes{color:white;}
+/* end comment stuff */
+
+/* index page now */
+#video_head{
+	font-family:arial;
+	font-weight:normal;
+	color:#D11919;
+	font-size:20pt;
+}
+
+#video_ep_data{
+	font-family:arial;
+	font-weight:normal;
+	color:white;
+	font-style:italic;
+}
+
+#video_category {
+	font-family:arial;
+	font-weight:normal;
+	color:white;
+}
+
+#video_box{
+	font-family:verdana;
+	font-weight:normal;
+	color:white;
+	font-size:12pt;
+	/*margin-right:10px;*/
+	padding-top:10px;
+	width:400px;
+	height:620px;
+	
+}
+#video_episode{
+	margin-right:0px; /* was 35 */
+	float:right;
+}
+/* end index page  */
